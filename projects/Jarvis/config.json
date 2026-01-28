@@ -1,0 +1,32 @@
+{
+    "activation_keywords": [
+        "джарвис",
+        "жарвис",
+        "дарвис",
+        "джаз",
+        "джой",
+        "пятница"
+    ],
+    "commands": [
+        {
+            "keywords": [
+                "опера",
+                "оперу",
+                "запусти оперу",
+                "запусти опера"
+            ],
+            "action": "launch_app",
+            "response_wav": "C:/Users/111/PycharmProjects/PythonProject1/phrases/Да сэр.wav",
+            "path": "C:/Users/111/AppData/Local/Programs/Opera GX/opera.exe"
+        },
+        {
+            "keywords": [
+                "ручка",
+                "ручки"
+            ],
+            "action": "set_volume",
+            "response_wav": "C:/Users/111/PycharmProjects/PythonProject1/phrases/Да сэр(второй).wav",
+            "volume": 50
+        }
+    ]
+}
